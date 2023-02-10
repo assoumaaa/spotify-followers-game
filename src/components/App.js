@@ -1,10 +1,10 @@
 import { data } from "../data/data";
-import { GetAritsts } from "../hooks";
 
 function App() {
 
 
-  const aritsts = data
+  const aritsts = data;
+  console.log(aritsts);
 
   return (
     <span>Welcomeee</span>
